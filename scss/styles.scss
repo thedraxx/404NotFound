@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+$gray: rgb(65, 65, 65);
+$darkgray: rgb(34, 34, 34);
+$white: rgb(255, 255, 255);
+
+body{
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.principal{
+    display: flex;
+    align-items: center;
+    margin: 150px;
+    padding: 0;
+}
+
+
+.scarecrow{  
+    width: 50vh;
+    align-items: start;
+}
+
+.message{
+    margin: 50px;
+    width: 35%;
+    h2{
+        font-size: 50px;
+        color: $darkgray;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    h3{
+        margin-top: -40px;
+        width: 100%;
+        color: $gray;
+    }
+
+    button{
+        color: $white;
+        margin-top: 15px;
+        padding: 20px;
+        background-color: $darkgray;
+    }
+}
+
+
+@media(max-width: 500px)
+{
+    
+.principal{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0;
+    flex-direction: column;
+
+}
+
+.scarecrow{  
+    width: 90%;
+}
+
+.message{
+    position: block;
+    margin-top: 30px;
+    width:100%;
+    h2{
+        font-size: 45px;
+        color: $darkgray;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    h3{
+        margin-top: 30px;
+        width: 100%;
+        color: $gray;
+    }
+
+    button{
+        color: $white;
+        margin-top: 15px;
+        padding: 20px;
+        background-color: $darkgray;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+}

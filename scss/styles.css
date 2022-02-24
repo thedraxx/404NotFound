@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.principal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 150px;
+  padding: 0;
+}
+
+.scarecrow {
+  width: 50vh;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.message {
+  margin: 50px;
+  width: 35%;
+}
+
+.message h2 {
+  font-size: 50px;
+  color: #222222;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.message h3 {
+  margin-top: -40px;
+  width: 100%;
+  color: #414141;
+}
+
+.message button {
+  color: white;
+  margin-top: 15px;
+  padding: 20px;
+  background-color: #222222;
+}
+
+@media (max-width: 500px) {
+  .principal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0px;
+    padding: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .scarecrow {
+    width: 90%;
+  }
+  .message {
+    position: block;
+    margin-top: 30px;
+    width: 100%;
+  }
+  .message h2 {
+    font-size: 45px;
+    color: #222222;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .message h3 {
+    margin-top: 30px;
+    width: 100%;
+    color: #414141;
+  }
+  .message button {
+    color: white;
+    margin-top: 15px;
+    padding: 20px;
+    background-color: #222222;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
